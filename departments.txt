@@ -1,0 +1,8 @@
+Mathematics
+Mathematics-Computer Science
+Computer Science-Mathematics
+Computer Science
+Computer Science-Statistics
+Physics-Chemistry
+Chemistry
+Chemistry-Physics
