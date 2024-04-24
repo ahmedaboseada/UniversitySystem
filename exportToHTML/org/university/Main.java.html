@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #7a7e85;}
+.s4 { color: #6aab73;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">org</span><span class="s2">.</span><span class="s1">university</span><span class="s2">;</span>
+
+<span class="s3">// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,</span>
+<span class="s3">// then press Enter. You can now see whitespace characters in your code.</span>
+
+<span class="s0">public class </span><span class="s1">Main </span><span class="s2">{</span>
+
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+        <span class="s3">// Press Alt+Enter with your caret at the highlighted text to see how</span>
+        <span class="s3">// IntelliJ IDEA suggests fixing it.</span>
+
+        <span class="s3">// Press Shift+F10 or click the green arrow button in the gutter to run the code.</span>
+
+            <span class="s3">// Press Shift+F9 to start debugging your code. We have set one breakpoint</span>
+            <span class="s3">// for you, but you can always add more by pressing Ctrl+F8.</span>
+        <span class="s1">Student s </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Student</span><span class="s2">(</span><span class="s4">&quot;Computer Science&quot;</span><span class="s2">,</span><span class="s5">4</span><span class="s2">,</span><span class="s4">&quot;Ahmed&quot;</span><span class="s2">,</span><span class="s4">&quot;adasdasd@gmail.com&quot;</span><span class="s2">,</span><span class="s4">&quot;01201738737&quot;</span><span class="s2">,</span><span class="s4">&quot;30404280202256&quot;</span><span class="s2">);</span>
+        <span class="s1">Instructor d </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Instructor</span><span class="s2">(</span><span class="s4">&quot;5ra&quot;</span><span class="s2">);</span>
+        <span class="s1">Instructor d2 </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Instructor</span><span class="s2">(</span><span class="s4">&quot;5ra&quot;</span><span class="s2">);</span>
+        <span class="s1">d</span><span class="s2">.</span><span class="s1">createCourse</span><span class="s2">(</span><span class="s4">&quot;Math1&quot;</span><span class="s2">,</span><span class="s4">&quot;Math&quot;</span><span class="s2">,</span><span class="s4">&quot;explaining math1&quot;</span><span class="s2">,</span><span class="s5">3</span><span class="s2">);</span>
+        <span class="s1">d</span><span class="s2">.</span><span class="s1">createCourse</span><span class="s2">(</span><span class="s4">&quot;Math2&quot;</span><span class="s2">,</span><span class="s4">&quot;Math&quot;</span><span class="s2">,</span><span class="s4">&quot;explaining math1&quot;</span><span class="s2">,</span><span class="s5">3</span><span class="s2">);</span>
+        <span class="s1">d2</span><span class="s2">.</span><span class="s1">createCourse</span><span class="s2">(</span><span class="s4">&quot;OOP&quot;</span><span class="s2">,</span><span class="s4">&quot;Math&quot;</span><span class="s2">,</span><span class="s4">&quot;explaining math1&quot;</span><span class="s2">,</span><span class="s5">3</span><span class="s2">);</span>
+        <span class="s1">d</span><span class="s2">.</span><span class="s1">createExam</span><span class="s2">(</span><span class="s1">d</span><span class="s2">.</span><span class="s1">getCourses</span><span class="s2">().</span><span class="s1">get</span><span class="s2">(</span><span class="s5">0</span><span class="s2">),</span><span class="s5">20</span><span class="s2">,</span><span class="s4">&quot;12/12/2024&quot;</span><span class="s2">,</span><span class="s4">&quot;Mid Term&quot;</span><span class="s2">);</span>
+        <span class="s1">d</span><span class="s2">.</span><span class="s1">createExam</span><span class="s2">(</span><span class="s1">d</span><span class="s2">.</span><span class="s1">getCourses</span><span class="s2">().</span><span class="s1">get</span><span class="s2">(</span><span class="s5">1</span><span class="s2">),</span><span class="s5">20</span><span class="s2">,</span><span class="s4">&quot;12/12/2024&quot;</span><span class="s2">,</span><span class="s4">&quot;Mid Term&quot;</span><span class="s2">);</span>
+        <span class="s1">d</span><span class="s2">.</span><span class="s1">createExam</span><span class="s2">(</span><span class="s1">d2</span><span class="s2">.</span><span class="s1">getCourses</span><span class="s2">().</span><span class="s1">get</span><span class="s2">(</span><span class="s5">0</span><span class="s2">),</span><span class="s5">20</span><span class="s2">,</span><span class="s4">&quot;12/12/2024&quot;</span><span class="s2">,</span><span class="s4">&quot;Mid Term&quot;</span><span class="s2">);</span>
+        <span class="s1">d</span><span class="s2">.</span><span class="s1">createExam</span><span class="s2">(</span><span class="s1">d</span><span class="s2">.</span><span class="s1">getCourses</span><span class="s2">().</span><span class="s1">get</span><span class="s2">(</span><span class="s5">0</span><span class="s2">),</span><span class="s5">80</span><span class="s2">,</span><span class="s4">&quot;12/12/2024&quot;</span><span class="s2">,</span><span class="s4">&quot;Final&quot;</span><span class="s2">);</span>
+        <span class="s1">d</span><span class="s2">.</span><span class="s1">createExam</span><span class="s2">(</span><span class="s1">d</span><span class="s2">.</span><span class="s1">getCourses</span><span class="s2">().</span><span class="s1">get</span><span class="s2">(</span><span class="s5">1</span><span class="s2">),</span><span class="s5">80</span><span class="s2">,</span><span class="s4">&quot;12/12/2024&quot;</span><span class="s2">,</span><span class="s4">&quot;Final&quot;</span><span class="s2">);</span>
+        <span class="s1">d</span><span class="s2">.</span><span class="s1">createExam</span><span class="s2">(</span><span class="s1">d2</span><span class="s2">.</span><span class="s1">getCourses</span><span class="s2">().</span><span class="s1">get</span><span class="s2">(</span><span class="s5">0</span><span class="s2">),</span><span class="s5">80</span><span class="s2">,</span><span class="s4">&quot;12/12/2024&quot;</span><span class="s2">,</span><span class="s4">&quot;Final&quot;</span><span class="s2">);</span>
+        <span class="s1">s</span><span class="s2">.</span><span class="s1">addCourse</span><span class="s2">(</span><span class="s1">d</span><span class="s2">.</span><span class="s1">getCourses</span><span class="s2">().</span><span class="s1">get</span><span class="s2">(</span><span class="s5">0</span><span class="s2">));</span>
+        <span class="s1">s</span><span class="s2">.</span><span class="s1">addCourse</span><span class="s2">(</span><span class="s1">d2</span><span class="s2">.</span><span class="s1">getCourses</span><span class="s2">().</span><span class="s1">get</span><span class="s2">(</span><span class="s5">0</span><span class="s2">));</span>
+        <span class="s1">s</span><span class="s2">.</span><span class="s1">addCourse</span><span class="s2">(</span><span class="s1">d</span><span class="s2">.</span><span class="s1">getCourses</span><span class="s2">().</span><span class="s1">get</span><span class="s2">(</span><span class="s5">1</span><span class="s2">));</span>
+        <span class="s1">d</span><span class="s2">.</span><span class="s1">setGradeOfStudent</span><span class="s2">(</span><span class="s1">s</span><span class="s2">,</span><span class="s1">d</span><span class="s2">);</span>
+        <span class="s1">d2</span><span class="s2">.</span><span class="s1">setGradeOfStudent</span><span class="s2">(</span><span class="s1">s</span><span class="s2">,</span><span class="s1">d2</span><span class="s2">);</span>
+        <span class="s1">s</span><span class="s2">.</span><span class="s1">calculateGpa</span><span class="s2">();</span>
+        <span class="s1">s</span><span class="s2">.</span><span class="s1">getMajor</span><span class="s2">();</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s1">s</span><span class="s2">.</span><span class="s1">getGPA</span><span class="s2">());</span>
+    <span class="s2">}</span>
+<span class="s2">}</span></pre>
+</body>
+</html>
